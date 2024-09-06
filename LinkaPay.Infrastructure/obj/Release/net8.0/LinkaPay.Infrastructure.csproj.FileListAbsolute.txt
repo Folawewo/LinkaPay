@@ -1,0 +1,17 @@
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Infrastructure.deps.json
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Infrastructure.runtimeconfig.json
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Infrastructure.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Infrastructure.pdb
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Domain.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/bin/Release/net8.0/LinkaPay.Domain.pdb
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.csproj.AssemblyReference.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.AssemblyInfoInputs.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.AssemblyInfo.cs
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.A1C98C98.Up2Date
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/refint/LinkaPay.Infrastructure.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.pdb
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/LinkaPay.Infrastructure.genruntimeconfig.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Infrastructure/obj/Release/net8.0/ref/LinkaPay.Infrastructure.dll

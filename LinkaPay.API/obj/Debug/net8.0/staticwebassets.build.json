@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0mLNWPA4e4P2AKtWCVvz6VD98YmachjTarO0aNiaHrk=",
+  "Source": "LinkaPay.API",
+  "BasePath": "_content/LinkaPay.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

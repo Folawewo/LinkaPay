@@ -15,3 +15,4 @@
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.Application/obj/Release/net8.0/LinkaPay.Application.pdb
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.Application/obj/Release/net8.0/LinkaPay.Application.genruntimeconfig.cache
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.Application/obj/Release/net8.0/ref/LinkaPay.Application.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Application/obj/Release/net8.0/LinkaPay.Application.sourcelink.json

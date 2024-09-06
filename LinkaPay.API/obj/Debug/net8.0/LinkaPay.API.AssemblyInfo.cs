@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkaPay.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8082659d4104188c74630d0eca09c30b4de0d5e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkaPay.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkaPay.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

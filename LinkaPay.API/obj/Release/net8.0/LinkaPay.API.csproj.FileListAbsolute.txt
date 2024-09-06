@@ -146,3 +146,4 @@
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.API/obj/Release/net8.0/LinkaPay.API.pdb
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.API/obj/Release/net8.0/LinkaPay.API.genruntimeconfig.cache
 /Users/folawewo/Hackathons/LinkaPay/LinkaPay.API/obj/Release/net8.0/ref/LinkaPay.API.dll
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.API/obj/Release/net8.0/LinkaPay.API.sourcelink.json

@@ -71,12 +71,14 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.AddAuthorization();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddSingleton<TokenService>();
+builder.Services.AddHttpClient();
 builder.Services.AddScoped<IRepository<Users>, Repository<Users>>();
 builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
-
-
+builder.Services.AddScoped<FlutterwaveService>();
+builder.Services.AddScoped<PaymentService>();
 
 var app = builder.Build();
 
@@ -88,6 +90,8 @@ app.UseSwaggerUI(c =>
     string swaggerJsonBasePath = string.IsNullOrWhiteSpace(c.RoutePrefix) ? "." : "..";
     c.SwaggerEndpoint($"{swaggerJsonBasePath}/swagger/v1/swagger.json", "LinkaPay API V1");
 });
+
+app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();

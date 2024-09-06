@@ -1,49 +1,31 @@
 ﻿<Properties StartupConfiguration="{45CD4796-260F-4DC9-8418-F452BF9D469C}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="LinkaPay.API/Controllers/AuthenticationController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LinkaPay.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinkaPay.Application/ServiceModels/Requests/UserLoginRequest.cs">
     <Files>
-      <File FileName="LinkaPay.Domain/Entities/BaseEntity.cs" Line="13" Column="1" />
-      <File FileName="LinkaPay.Application/Implementation/UserService.cs" Line="23" Column="54" />
-      <File FileName="LinkaPay.Application/Interface/IUserService.cs" Line="13" Column="1" />
-      <File FileName="LinkaPay.Application/Security/PasswordHasher.cs" Line="17" Column="1" />
       <File FileName="LinkaPay.API/Controllers/AuthenticationController.cs" Line="4" Column="32" />
+      <File FileName="LinkaPay.API/Controllers/UserController.cs" Line="6" Column="1" />
+      <File FileName="LinkaPay.Application/Implementation/UserService.cs" Line="6" Column="39" />
+      <File FileName="LinkaPay.Application/ServiceModels/Requests/CreatePaymentLinkRequest.cs" Line="19" Column="1" />
+      <File FileName="LinkaPay.Application/ServiceModels/Requests/CreateUserRequest.cs" Line="13" Column="1" />
+      <File FileName="LinkaPay.Application/ServiceModels/Requests/FlutterwavePaymentRequest.cs" Line="13" Column="1" />
+      <File FileName="LinkaPay.Application/ServiceModels/Requests/UserLoginRequest.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LinkaPay" expanded="True">
-            <Node name="LinkaPay.API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AuthenticationController.cs" selected="True" />
-              </Node>
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
-            <Node name="LinkaPay.Application" expanded="True">
-              <Node name="Implementation" expanded="True" />
-              <Node name="Interface" expanded="True" />
-              <Node name="Security" expanded="True" />
-              <Node name="ServiceModels" expanded="True">
-                <Node name="Requests" expanded="True" />
-                <Node name="Responses" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="LinkaPay.Domain" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="IRepository" expanded="True" />
-            </Node>
-            <Node name="LinkaPay.Infrastructure" expanded="True">
-              <Node name="DAL" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+            <Node name="LinkaPay.Tests">
+              <Node name="Dependencies" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LinkaPay.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkaPay.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkaPay.API", "LinkaPay.API\LinkaPay.API.csproj", "{45CD4796-260F-4DC9-8418-F452BF9D469C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkaPay.Tests", "LinkaPay.Tests\LinkaPay.Tests.csproj", "{BFD834A4-B1E0-40F5-8EBF-BB0DFF8EB771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{45CD4796-260F-4DC9-8418-F452BF9D469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45CD4796-260F-4DC9-8418-F452BF9D469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45CD4796-260F-4DC9-8418-F452BF9D469C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD834A4-B1E0-40F5-8EBF-BB0DFF8EB771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD834A4-B1E0-40F5-8EBF-BB0DFF8EB771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD834A4-B1E0-40F5-8EBF-BB0DFF8EB771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD834A4-B1E0-40F5-8EBF-BB0DFF8EB771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

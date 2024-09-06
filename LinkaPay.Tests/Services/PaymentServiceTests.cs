@@ -22,16 +22,15 @@ namespace LinkaPay.Tests.Services
         [Fact]
         public async Task CreatePaymentLink_ShouldReturnSuccess_WhenFlutterwaveInitiatesPaymentSuccessfully()
         {
-            // Arrange
             var paymentLinkRequest = new CreatePaymentLinkRequest
             {
                 Amount = 5000,
                 RedirectUrl = "https://linkapay.co",
                 Customer = new Customer
                 {
-                    Email = "test@example.com",
-                    Name = "John Doe",
-                    PhoneNumber = "08012345678"
+                    Email = "anthony@anthony.com",
+                    Name = "Anthony Anthony",
+                    PhoneNumber = "123456789"
                 }
             };
 
@@ -39,45 +38,43 @@ namespace LinkaPay.Tests.Services
             {
                 Status = "success",
                 Message = "Payment link created successfully",
-                RedirectUrl = "https://pay.flutterwave.com/test"
+                data = new FlutterwavePaymentResponseData
+                {
+                    Link = "https://pay.flutterwave.com/test"
+                }
             };
 
-            // Mock the response from the FlutterwaveService
             _flutterwaveServiceMock
                 .Setup(f => f.InitiatePayment(It.IsAny<FlutterwavePaymentRequest>()))
                 .ReturnsAsync(flutterwaveResponse);
 
-            // Act
             var result = await _paymentService.CreatePaymentLink(paymentLinkRequest);
 
-            // Assert
             Assert.NotNull(result);
             Assert.Equal("success", result.Status);
-            Assert.Equal("https://pay.flutterwave.com/test", result.RedirectUrl);
+            Assert.Equal("https://pay.flutterwave.com/test", result.data.Link); 
         }
+
 
         [Fact]
         public async Task CreatePaymentLink_ShouldThrowException_WhenFlutterwaveReturnsError()
         {
-            // Arrange
             var paymentLinkRequest = new CreatePaymentLinkRequest
             {
                 Amount = 5000,
                 RedirectUrl = "https://linkapay.co",
                 Customer = new Customer
                 {
-                    Email = "test@example.com",
-                    Name = "John Doe",
-                    PhoneNumber = "08012345678"
+                    Email = "anthony@anthony.com",
+                    Name = "Anthony Anthony",
+                    PhoneNumber = "123456789"
                 }
             };
 
-            // Mock an error response from Flutterwave
             _flutterwaveServiceMock
                 .Setup(f => f.InitiatePayment(It.IsAny<FlutterwavePaymentRequest>()))
                 .ThrowsAsync(new Exception("Error initiating payment"));
 
-            // Act & Assert
             await Assert.ThrowsAsync<Exception>(() => _paymentService.CreatePaymentLink(paymentLinkRequest));
         }
     }

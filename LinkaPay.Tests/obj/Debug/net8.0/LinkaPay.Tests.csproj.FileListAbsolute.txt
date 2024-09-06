@@ -1,0 +1,8 @@
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.csproj.AssemblyReference.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.AssemblyInfoInputs.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.AssemblyInfo.cs
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.csproj.CoreCompileInputs.cache
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/obj/Debug/net8.0/LinkaPay.Tests.sourcelink.json
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/bin/Debug/net8.0/.msCoverageSourceRootsMapping_LinkaPay.Tests
+/Users/folawewo/Hackathons/LinkaPay/LinkaPay.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_LinkaPay.Tests
